@@ -10,5 +10,10 @@ jobs:
             uses: actions/setup-node@v2
             with: 
                 node-version: 14
-          - name: run node
-            run: node -v
+          - name: install package
+            run: npm install
+          - name: install package
+            run: npm run build
+          - name: Setup Finished
+            run: echo "hurray"
+
