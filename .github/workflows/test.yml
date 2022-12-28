@@ -4,4 +4,5 @@ jobs:
     test:
         runs-on: ubuntu—latest
         steps:
-          - run: echo "hello world"
+          - users: actions/checkout@v2
+          - run: tree
