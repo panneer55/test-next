@@ -4,5 +4,6 @@ jobs:
     test:
         runs-on: ubuntu—latest
         steps:
-          - users: actions/checkout@v2
-          - run: tree
+          - name: Checkout source code
+            users: actions/checkout@v2
+            run: tree
