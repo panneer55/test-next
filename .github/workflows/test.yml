@@ -1,14 +1,14 @@
 name: My First GitHub Action
 on: [push]
 jobs:
-    test:
-        runs-on: ubuntu-16.04
+    build-app:
+        runs-on: ubuntu-latest
         steps:
           - name: Checkout source code
             uses: actions/checkout@v2
           - name: install Node
             uses: actions/setup-node@v2
             with: 
-                node—version: 14
+                node-version: 14
           - name: run node
             run: node -v
