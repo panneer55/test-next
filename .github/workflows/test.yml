@@ -4,4 +4,4 @@ jobs:
     print—hello-world:
         runs-on: ubuntu—latest
         steps:
-          - run: echo "print-hello-world"
+          - run: echo "hello world"
