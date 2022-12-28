@@ -4,5 +4,5 @@ jobs:
     print—hello-world:
         runs-on: ubuntu—latest
         steps:
-        — run: echo "print-hello-world"
-        — run: echo "print-hello-Galaxy"
+          - name: my-step
+          run: echo "print-hello-world"
