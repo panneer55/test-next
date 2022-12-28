@@ -6,5 +6,9 @@ jobs:
         steps:
           - name: Checkout source code
             uses: actions/checkout@v2
-          - name: run tree
-            run: tree
+          - name: install Node
+            uses: actions/setup-node@v2
+            with: 
+                node—version: 14
+          - name: run node
+            run: node -v
