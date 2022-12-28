@@ -2,7 +2,7 @@ name: My First GitHub Action
 on: [push]
 jobs:
     test:
-        runs-on: ubuntu—latest
+        runs-on: ubuntu-16.04
         steps:
           - name: Checkout source code
             uses: actions/checkout@v2
